@@ -11,7 +11,7 @@ const Home = () => {
         autoPlay
         loop
         muted
-        className="w-full h-full object-contain "
+        className="w-full h-[70%] object-contain "
       />
       <div className="w-[80%] mx-auto">
         <div className=" w-full flex flex-col gap-y-1 absolute top-[30%]">
@@ -32,14 +32,14 @@ const Home = () => {
             <div className="flex flex-col gap-y-3 w-full">
               <p className="text-gray-500 text-sm">Search your destination:</p>
               <input
-                className="bg-[#F0EEF0] p-1 w-[300px] rounded-full"
+                className="bg-[#F0EEF0] p-1 w-[300px] rounded-full pl-3"
                 placeholder="Enter name here.."
               />
             </div>
             <div className="flex flex-col gap-y-3 w-full">
               <p className="text-gray-500 text-sm">Search your date:</p>
               <input
-                className="bg-[#F0EEF0] p-1 w-[300px] rounded-full"
+                className="bg-[#F0EEF0] p-1 w-[300px] rounded-full pl-3"
                 type="date"
               />
             </div>
@@ -50,7 +50,7 @@ const Home = () => {
                 </p>
                 <p className="text-gray-800 text-sm font-semibold">$ 5000</p>
               </div>
-              <input className="bg-[#F0EEF0] p-1 w-[300px] rounded-full" />
+              <input type="range" className="bg-[#F0EEF0] p-1 w-[300px] rounded-full pl-3" />
             </div>
             <button className="rounded-full bg-[#047BAE] px-5 py-2 font-normal text-sm text-white absolute left-[45%] top-[85%]">
               MORE FILTERS..
