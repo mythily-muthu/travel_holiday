@@ -5,7 +5,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="flex flex-col ">
+    <div className="flex w-screen h-full flex-col ">
 
       <Router>
         <Header />
