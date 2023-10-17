@@ -32,9 +32,9 @@ setIsOpen(!isOpen)
   <div className="flex w-full h-14 bg-white items-center ">
     <div className="flex w-[80%] mx-auto items-center">
      <div className="flex w-full justify-between">
-     <p className=" flex text-gray-700 font-bold text-3xl w-full">Travel.</p>
-       <div className=" hidden md:flex w-full items-center gap-x-6 text-gray-400 text-sm"><NavLinks/></div>
-       <button className="flex w-[80%] items-center cursor-pointer md:hidden" onClick={showNavItems}>{ !isOpen ?
+     <p className=" flex text-gray-700 font-bold text-3xl w-[80%]">Travel.</p>
+       <div className="hidden md:flex w-[80%] items-center md:gap-x-5 lg:gap-x-12 text-gray-400 text-sm"><NavLinks/></div>
+       <button className="flex w-[80%] gap-x-10 items-center cursor-pointer md:hidden" onClick={showNavItems}>{ !isOpen ?
          <PiDotsNineBold className="text-gray-800 text-lg flex w-full cursor-pointer"/> : <AiOutlineClose className="text-gray-800 text-lg flex w-full cursor-pointer"/>}
        </button>
      </div>
