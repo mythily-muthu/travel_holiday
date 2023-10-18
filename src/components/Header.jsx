@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { PiDotsNineBold } from "react-icons/pi";
 import { AiOutlineClose } from "react-icons/ai";
-const rg = () => {
-  console.log("hi");
-};
 
 const NavLinks = () => {
   return (
@@ -49,7 +46,7 @@ const Header = () => {
             Travel.
           </p>
           <div className="hidden md:flex w-[80%] items-center md:gap-x-5 lg:gap-x-12 text-gray-400 text-sm">
-            <NavLinks />
+            <NavLinks className="cursor-pointer" />
           </div>
           <button
             className="flex w-[80%] gap-x-10 items-center cursor-pointer md:hidden"
